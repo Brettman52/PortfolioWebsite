@@ -13,12 +13,21 @@ main {
 }
 
 h2 {
-    font-family: Georgia, Times, "Times New Roman", serif;
+    /*font-family: Georgia, Times, "Times New Roman", serif;*/
     font-size: 24px;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
     line-height: 26.4px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .name {
@@ -33,13 +42,13 @@ nav {
     background-color: #708090;
 }
 
-a{
-  text-decoration: none;
-  color: white;
+a {
+    text-decoration: none;
+    color: white;
 }
 
-a:visited{
-  color: purple;
+a:visited {
+    color: purple;
 }
 
 .menu {
@@ -49,15 +58,15 @@ a:visited{
 }
 
 .navItems li {
-  padding-left: 10px;
-  margin-right: 5px;
-  
+    padding-left: 10px;
+    margin-right: 5px;
+
 }
 
-.navItems{
-  list-style: none;
-  display: flex;
-  padding-left: 10px;
+.navItems {
+    list-style: none;
+    display: flex;
+    padding-left: 10px;
 }
 
 
@@ -65,9 +74,9 @@ a:visited{
     text-align: center;
     font-size: 25px;
     background-color: #CCCCCC;
-    font-family: 'Montserrat', sans-serif;
     margin-top: 5%;
     border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -85,8 +94,6 @@ header {
     max-width: 75px;
 }
 
-
-
 #projects {
     background-color: #CCCCCC;
     border-radius: 10px;
@@ -101,8 +108,8 @@ header {
     border-radius: 50%;
 }
 
-.emailButton{
-  background-color: #708090;
+.emailButton {
+    background-color: #708090;
 }
 
 #social {
@@ -176,15 +183,15 @@ section {
         justify-content: center;
     }
 
-    .project button{
-      font-size: 16px;
-      border-radius: 2px;
+    .project button {
+        font-size: 16px;
+        border-radius: 2px;
     }
 
     nav {
         max-height: 43px;
     }
-  
+
     .menu {
         display: none;
     }
@@ -196,18 +203,18 @@ section {
         padding-right: 10px;
         font-size: 19px;
         color: white;
-	}
+    }
 
-      .emailButton {
+    .emailButton {
         font-size: 16px;
         border-radius: 2px;
-        
+
     }
 
     #social {
         background-color: white;
         border-radius: 0px;
-  	}
+    }
 
     .hero {
         font-size: 30px;
@@ -218,13 +225,13 @@ section {
     }
 
     .D2Shot {
-        height: 380px;
-        width: 380px;
+        height: 330px;
+        width: 330px;
     }
 
     .comingSoon {
-        height: 380px;
-        width: 380px;
+        height: 330px;
+        width: 330px;
     }
 
 
