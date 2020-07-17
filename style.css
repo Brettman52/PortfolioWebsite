@@ -31,6 +31,7 @@ p {
 
 .name {
     font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -59,6 +60,7 @@ a:visited {
 .navItems li {
     padding-left: 10px;
     margin-right: 5px;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
