@@ -3,13 +3,12 @@
 }
 
 body {
-    margin: 0px;
-    
+    margin: 0;
 }
 
-main {
-    margin-left: 10%;
-    margin-right: 10%;
+#projectsContainer {
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 h2 {
@@ -46,7 +45,6 @@ a {
     text-decoration: none;
     color: white;
 }
-
 a:visited {
     color: purple;
 }
@@ -98,12 +96,12 @@ header {
     border-radius: 10px;
     text-align: center;
     padding: 4% 0;
+
 }
 
 #projects h2 {
     margin-bottom: 45px;
 }
-
 
 #bio {
     padding: 8% 0;
@@ -174,8 +172,8 @@ header {
     text-decoration: underline;
 }
 
-#social,
 #contact,
+#social,
 h2 {
     text-align: center;
 }
@@ -194,17 +192,37 @@ li {
     list-style: none;
 }
 
+footer {
+    margin-top: 100px;
+    background-color: #CCCCCC;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+ 
+
+}
+
+#craftedBy {
+    font-size: 25px;
+}
+
+#name {
+    font-family: 'Cedarville Cursive', cursive;
+}
+
 @media only screen and (min-width: 1000px) {
 
-    .row,
-    .flexContainer3 {
+    .flexContainer3,
+    .row {
         display: flex;
     }
 
     .flexContainer3 {
         justify-content: space-around;
         margin-top: 10%;
-        margin-bottom: 0%;
+        margin-bottom: 0;
     }
 
     .bio p {
@@ -213,17 +231,29 @@ li {
         text-align: justify;
     }
 
-    .project {
-        padding: 10px;
-        margin-right: 20px;
+    #bio {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .mtc {
         flex: 50%;
     }
 
-
-    .mtc p {
-        text-align: center;
+    .project p {
+        margin-left: 80px;
+        margin-right: 80px;
     }
 
+    #projectsContainer {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .mtc p {
+        text-align: center; 
+  
+    }
 
     nav {
         max-height: 43px;
@@ -236,8 +266,7 @@ li {
     .navItems li {
         display: inline-block;
         list-style-type: none;
-        padding: 5px;
-        padding-right: 10px;
+        padding: 5px 10px 5px 5px;
         font-size: 19px;
         color: white;
     }
@@ -250,7 +279,7 @@ li {
 
     #social {
         background-color: white;
-        border-radius: 0px;
+        border-radius: 0;
     }
 
     #hero {
@@ -262,12 +291,8 @@ li {
     }
 
     .D2Shot,
+    .comingSoon,
     .reShot {
-        height: 315px;
-        width: 330px;
-    }
-
-    .comingSoon {
         height: 315px;
         width: 330px;
     }
