@@ -193,23 +193,25 @@ li {
 }
 
 footer {
-    margin-top: 100px;
-    background-color: #CCCCCC;
     height: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
- 
-
+    align-items: flex-end;
+    font-size: 10px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #craftedBy {
-    font-size: 25px;
+    font-size: 15px;
 }
 
 #name {
     font-family: 'Cedarville Cursive', cursive;
+    font-size: 25px;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -223,6 +225,7 @@ footer {
         justify-content: space-around;
         margin-top: 10%;
         margin-bottom: 0;
+        height: 500px;
     }
 
     .bio p {
@@ -295,6 +298,16 @@ footer {
     .reShot {
         height: 315px;
         width: 330px;
+    }
+
+    footer {
+        margin-top: 100px;
+        background-color: #CCCCCC;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
     }
 
 }
