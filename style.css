@@ -113,7 +113,7 @@ header {
     color: blue;
 }
 
-.projectPic {
+img.projectPic {
     border-radius: 10px;
     height: 215px;
     width: 225px;
@@ -261,7 +261,7 @@ footer {
         font-size: 32px;
     }
 
-    .projectPic {
+    img.projectPic {
         height: 315px;
         width: 400px;
 
