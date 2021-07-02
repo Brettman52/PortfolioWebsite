@@ -50,30 +50,27 @@
         </header>
 
         <nav class="navbar">
-            <div class="menu">&#9776;</div>
-            <ul class="navItems">
+            <ul class="navItemsGroup">
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a class="navLink" href="#projects">Projects</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a class="navLink" href="#contact">Contact</a>
                 </li>
                 <li>
-                    <a href="#social">Connect</a>
+                    <a class="navLink" href="#social">Connect</a>
                 </li>
             </ul>
         </nav>
 
         <main>
-
             <section id="hero">
                 <h1>Hi, I’m Brett -<br>
                     problem solver and front-end developer.</h1>
             </section>
 
             <section id="bio">
-                <h2>About Me</h2>
-
+                <h2 class="sectionHeading">About Me</h2>
                 <p>I have a B.S. in Information Technology from Colorado State University and
                     have completed the front-end web developement portion at Bloc Coding Bootcamp. I
                     get a thrill from solving problems and building applications from scratch. My
@@ -85,19 +82,60 @@
 
             <section id="projects">
                 <div id="projectsContainer">
-                    <h2>Projects</h2>
+                    <h2 class="sectionHeading">Projects</h2>
+                    <div class="row">
+                        <div class="project">
+                            <h3>Weather App</h3>
+                            <img
+                                class="projectPic"
+                                src="WeatherAppPic2.png"
+                                alt="Screenshot of the Weather App">
+                            <p class="projectDetails">
+                                The Weather App is my latest project. The Weather App was created to allow a
+                                user to search for the current weather or multi-day forecast from the United
+                                States and around the globe. This app was created using React, React Router,
+                                React Context, Fetch API, Styled Components, and Material-UI. Further, the
+                                Weather App uses a more declarative model than my previous applications.
+                            </p>
+                            <span>
+                                <a href="https://weather-app-bflchn9na-brettman52.vercel.app/" target="_blank">Live</a>
+                            </span>
+                            <span>
+                                <a href="https://github.com/Brettman52/WeatherApp" target="_blank">Repo</a>
+                            </span>
+                        </div>
+
+                        <div class="project">
+                            <h3>Noteful</h3>
+                            <img
+                                class="projectPic"
+                                src="NotefulPic.png"
+                                alt="Screenshot of the Noteful app">
+                            <p class="projectDetails">Noteful is an app developed to create, temporarily
+                                save, and delete notes within a custom folder. This app was created using React,
+                                React Router, React Context, Material-UI, Styled Components and employs
+                                controlled components for real-time field validation.</p>
+                            <span>
+                                <a href="https://noteful-phi-seven.vercel.app/" target="_blank">Live</a>
+                            </span>
+                            <span>
+                                <a href="https://github.com/Brettman52/Noteful" target="_blank">Repo</a>
+                            </span>
+                        </div>
+                    </div>
 
                     <div class="row">
                         <div class="project">
                             <h3>Destiny 2 Quiz App</h3>
                             <img
-                                class="D2Shot"
+                                class="projectPic"
                                 src="D2Screenshot.png"
                                 alt="Screenshot of Destiny 2 quiz app">
-                            <p>The Destiny 2 Quiz app is designed to test Destiny 2 fan's knowledge of the
-                                popular, multi-platform game, Destiny 2. I built this app over any other because
-                                of my ever-loving passion for the game Destiny 2. The app was built using
-                                JavaScript, HTML, CSS, and also utilizes jQuery for interactivity.</p>
+                            <p class="projectDetails">The Destiny 2 Quiz app is designed to test Destiny 2
+                                fan's knowledge of the popular, multi-platform game, Destiny 2. I built this app
+                                over any other because of my ever-loving passion for the game Destiny 2. The app
+                                was built using JavaScript, HTML, CSS, and also utilizes jQuery for
+                                interactivity.</p>
                             <span>
                                 <a href="https://brettman52.github.io/QuizApp/" target="_blank">Live</a>
                             </span>
@@ -109,13 +147,14 @@
                         <div class="project">
                             <h3>The Recipe Explorer</h3>
                             <img
-                                class="reShot"
+                                class="projectPic"
                                 src="RecipeScreenshot.png"
                                 alt="Screenshot of recipe explorer app">
-                            <p>The Recipe explorer app was created to help users explore recipes related to
-                                a food item entered. This app utilizes two separate APIs: one API returns
-                                "paper" recipes while the other returns YouTube videos. This app was built using
-                                HTML, CSS, Javascript, jQuery, and utilizes promises and fetch calls.</p>
+                            <p class="projectDetails">The Recipe explorer app was created to help users
+                                explore recipes related to a food item entered. This app utilizes two separate
+                                APIs: one API returns "paper" recipes while the other returns YouTube videos.
+                                This app was built using HTML, CSS, Javascript, jQuery, and utilizes promises
+                                and Fetch API.</p>
                             <span>
                                 <a href="https://brettman52.github.io/APICapstone/index.html" target="_blank">Live</a>
                             </span>
@@ -125,30 +164,28 @@
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="project mtc">
-                            <h3>More to Come</h3>
-                            <img class="comingSoon" src="More-Coming-Soon.jpg" alt="more coming soon sign">
-                            <p class="comingSoonText">Please check back regularly, as my portfolio will be
-                                expanded throughout my time in the Bloc Coding Bootcamp.</p>
-                        </div>
+                    <div class="mtc">
+                        <h3>More to Come</h3>
+                        <img class="projectPic" src="More-Coming-Soon.jpg" alt="more coming soon sign">
+                        <p class="comingSoonText">Please check back regularly, as my portfolio will
+                            expand as I complete further projects.
+                        </p>
                     </div>
+
                 </div>
             </section>
 
             <div class="flexContainer3">
                 <section id="contact">
                     <h2>Contact</h2>
-
                     <a href="mailto:Brett.Adams20@yahoo.com">Email Me</a>
                 </section>
 
                 <section id="social">
                     <h2>Find Me On</h2>
-
                     <ul class="socialItems">
                         <li>
-                            <a href="https://github.com/Brettman52/" target="_blank"><img class="GHLogo" alt="an image of the GitHub logo" src="GHLogo.png"></a>
+                            <a href="https://github.com/Brettman52?tab=repositories/" target="_blank"><img class="GHLogo" alt="an image of the GitHub logo" src="GHLogo.png"></a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/bretton1/" target="_blank"><img class="LILogo" alt="an image of the Linkedin logo" src="LI-In-Bug.png"></a>
